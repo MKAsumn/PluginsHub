@@ -1,0 +1,35 @@
+lobby:
+  world: "world"
+  x: 100.0
+  y: 65.0
+  z: 200.0
+  yaw: 0.0
+  pitch: 0.0
+
+# Ce message est envoyé au joueur lorsqu'il exécute /lobby
+lobby-arrival: "&8► Vous avez été téléporté au Lobby !"
+
+# Ce message est envoyé au joueur lorsqu'il exécute /lobby mais qu'aucun point de spawn n'est défini
+no-lobbypoint: "&a[&6Hub-AdaFree&a] &bVous n'avez pas défini de point de Lobby. Utilisez /spawnpoint pour le définir !"
+
+# Ce message est envoyé au joueur lorsqu'il exécute /lobbypoint
+lobby-set: "&a[&6Hub-AdaFree&a] &bVous avez défini le point de spawn du lobby !"
+
+# Ce message est envoyé au joueur lorsqu'il exécute /lobbypoint, mais qu'il n'a pas la permission
+no-permission: "&4Vous n'avez pas la permission d'utiliser cette commande !"
+
+# Le message envoyé au joueur s'il est en temps de recharge
+# NE PAS AJOUTER QUOI QUE CE SOIT APRÈS LE MOT ANOTHER SINON CELA NE FONCTIONNERA PAS CORRECTEMENT !!! Vous pouvez toujours changer le dernier mot et tout ce qui le précède
+cooldown-message: "&4Désolé, vous ne pouvez pas utiliser cette commande"
+
+# Combien de temps attendre avant de pouvoir utiliser à nouveau la commande (en secondes)
+cooldown-time: 10
+
+# Le message affiché lorsque le joueur exécute /lobby et n'est pas affecté par un temps de recharge
+lobby-countdown: "&b►Téléportation en cours..."
+
+# Le temps à attendre avant de téléporter le joueur en secondes
+countdown-time: 5
+
+# Cliquez sur ce lien pour voir les codes couleur que vous pouvez utiliser ici. https://www.digminecraft.com/lists/color_list_pc.php
+# au lieu de '§' utilisez '&'

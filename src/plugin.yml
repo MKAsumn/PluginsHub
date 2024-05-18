@@ -1,0 +1,12 @@
+name: Hub-AdaFree
+version: 1.0
+author: Sakori
+main: fr.sakori.adafreehub.Main
+description: Un plugin pour gérer un lobby dans Minecraft.
+commands:
+  lobby:
+    description: Téléporte le joueur au lobby.
+    usage: /lobby
+  setlobby:
+    description: Définit le point de spawn du lobby.
+    usage: /setlobby
